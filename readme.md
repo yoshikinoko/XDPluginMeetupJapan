@@ -5,7 +5,7 @@
 
 1. 適当な場所にリポジトリをチェックアウト
 
-    `git clone https://github.com/AdobeXD/plugin-samples.git plugins`
+    `git clone https://github.com/yoshikinoko/XDPluginMeetupJapan.git`
 
     もしくは [zipファイルをダウンロード](https://github.com/yoshikinoko/XDPluginMeetupJapan/releases/latest)
 
@@ -43,11 +43,11 @@
 
     `プラグイン` > `開発版` > `プラグインを再読み込み`
 
-    ショートカットキー　Mac: `Command+Shift+R` Win: `Ctrl+Shift+R`
+    ショートカットキー Mac: `Command+Shift+R` Win: `Ctrl+Shift+R`
 
 6. Adobe XD のメニューより、プラグインを起動
 
-    `プラグイン` >　`プラグイン名`
+    `プラグイン` > `プラグイン名`
 
 ## サンプルコードの概要
 
