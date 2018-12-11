@@ -1,0 +1,32 @@
+{
+  "name": "red_square_of_arbitrary_size",
+  "version": "1.0.0",
+  "description": "This is Red square of arbitrary size, an Adobe XD Plugin.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "locate": "xdpm install -o build",
+    "start": "nodemon -w src -w static -w webpack.config.js -e js,jsx,css,scss,html,json,png -x npm run deploy",
+    "build": "webpack --mode development",
+    "clean": "rimraf build/*",
+    "deploy": "npm run validate && npm run clean && npm run build && npm run locate",
+    "package": "xdpm package build",
+    "validate": "xdpm validate static",
+    "lint": "eslint 'src/**/*.{js,jsx}' 'webpack.config.js'",
+    "lint-fix": "eslint  --fix 'src/**/*.{js,jsx}' 'webpack.config.js'"
+  },
+  "private": true,
+  "devDependencies": {
+    "@adobe/xdpm": "^1.1.2",
+    "copy-webpack-plugin": "^4.6.0",
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1",
+    "nodemon": "^1.18.7",
+    "rimraf": "^2.6.2",
+    "webpack": "^4.23.1",
+    "webpack-cli": "^3.1.2"
+  },
+  "dependencies": {}
+}

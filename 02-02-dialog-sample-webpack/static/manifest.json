@@ -1,0 +1,28 @@
+{
+  "name": "Red square of arbitrary size",
+  "id": "dcba3210",
+  "version": "1.0.0",
+  "description": "Create a red square of arbitrary size",
+  "icons": [
+    {
+      "width": 96,
+      "height": 96,
+      "path": "images/icon.png"
+    }
+  ],
+  "host": {
+    "app": "XD",
+    "minVersion": "13.0.0"
+  },
+  "uiEntryPoints": [
+    {
+      "type": "menu",
+      "label": {
+        "default": "Insert a red square of arbitrary size",
+        "en": "Insert a red square of arbitrary size",
+        "ja": "任意のサイズの正方形を挿入する"
+      },
+      "commandId": "menuCommand"
+    }
+  ]
+}
