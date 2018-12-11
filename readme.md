@@ -61,6 +61,8 @@
 
 [01-02-scenegraph-sample-webpack](./01-02-scenegraph-sample-webpack)
 
+#### Dialogを表示しないPluginのプレビュー
+
 ![Dialogを表示しないPluginのプレビュー](./readme-files/scenegraph-sample.gif)
 
 ### 2. Dialogを表示するPlugin
@@ -72,6 +74,8 @@
 ### 2.2 webpack, xdpm を用いたプロジェクトテンプレート
 
 [02-01-dialog-sample-webpack](./02-01-dialog-sample-webpack)
+
+#### Dialogを表示するPluginのプレビュー
 
 ![Dialogを表示するPluginのプレビュー](./readme-files/dialog-sample.gif)
 
