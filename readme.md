@@ -73,7 +73,7 @@
 
 ### 2.2 webpack, xdpm を用いたプロジェクトテンプレート
 
-[02-01-dialog-sample-webpack](./02-01-dialog-sample-webpack)
+[02-02-dialog-sample-webpack](./02-02-dialog-sample-webpack)
 
 #### Dialogを表示するPluginのプレビュー
 
