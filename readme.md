@@ -11,6 +11,8 @@
 
 2. `develop` フォルダ（開発用プラグインフォルダ）を開く
 
+    ※`develop` フォルダが存在しないときは作成してください※
+
     Mac:
 
     `~/Library/Application\ Support/Adobe/Adobe\ XD\ CC/develop`
