@@ -18,9 +18,9 @@
     {
       "type": "menu",
       "label": {
-        "default": "Insert a red square of arbitrary size",
-        "en": "Insert a red square of arbitrary size",
-        "ja": "任意のサイズの正方形を挿入する"
+        "default": "Insert a red square of arbitrary size...",
+        "en": "Insert a red square of arbitrary size...",
+        "ja": "任意のサイズの正方形を挿入する..."
       },
       "commandId": "menuCommand"
     }
