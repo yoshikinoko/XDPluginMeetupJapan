@@ -51,12 +51,10 @@ function createDialog(selection) {
     };
 
     document.querySelector('#cancel').addEventListener('click', (e) => {
-        e.preventDefault();
         dialog.close('cancel');
     });
 
     document.querySelector('#ok').addEventListener('click', async (e) => {
-        e.preventDefault();
         await submit();
     });
 
