@@ -75,8 +75,19 @@ async function main(selection, documentRoot) {
     }
 }
 
+async function drawRectangleOnScenegraph100(selection, documentRoot) {
+    await drawRectangleOnScenegraph(selection, 100);
+}
+
+
+async function drawRectangleOnScenegraph200(selection, documentRoot) {
+    await drawRectangleOnScenegraph(selection, 200);
+}
+
 module.exports = {
     commands: {
         menuCommand: main,
+        menuCommand100: drawRectangleOnScenegraph100,
+        menuCommand200: drawRectangleOnScenegraph200,
     },
 };

@@ -1,8 +1,8 @@
 {
-  "name": "Red square of arbitrary size",
   "id": "dcba3210",
   "version": "1.0.0",
-  "description": "Create a red square of arbitrary size",
+  "name": "Red square of arbitrary size",
+  "description": "This plugin creates a red square of arbitrary size. You do not have to click and drag to create squares any more. There are two short cut keys for the 100px and 200px length squares.",
   "icons": [
     {
       "width": 96,
@@ -22,7 +22,47 @@
         "en": "Insert a red square of arbitrary size...",
         "ja": "任意のサイズの正方形を挿入する..."
       },
+      "shortcut": {
+        "mac": "Cmd+alt+0",
+        "win": "Ctrl+alt+0"
+      },
       "commandId": "menuCommand"
+    },
+    {
+      "type": "menu",
+      "label": {
+        "default": "Insert a red square of fixed size",
+        "en": "Insert a red square of fixed size",
+        "ja": "規定のサイズの正方形を挿入する"
+      },
+      "menuItems":[
+        {
+          "type": "menu",
+          "label": {
+            "default": "Insert a red square of 100px",
+            "en": "Insert a red square of 100px",
+            "ja": "1辺100pxの正方形を挿入する"
+          },
+          "shortcut": {
+            "mac": "Cmd+alt+1",
+            "win": "Ctrl+alt+1"
+          },
+          "commandId": "menuCommand100"
+        },
+        {
+          "type": "menu",
+          "label": {
+            "default": "Insert a red square of 200px",
+            "en": "Insert a red square of 200px",
+            "ja": "1辺200pxの正方形を挿入する"
+          },
+          "shortcut": {
+            "mac": "Cmd+alt+2",
+            "win": "Ctrl+alt+2"
+          },
+          "commandId": "menuCommand200"
+        }
+      ]
     }
   ]
 }
