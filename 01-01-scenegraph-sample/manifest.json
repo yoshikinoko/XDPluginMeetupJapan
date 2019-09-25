@@ -1,7 +1,7 @@
 {
-  "name": "Red square",
   "id": "abcd0123",
   "version": "1.0.0",
+  "name": "Red square",
   "description": "Insert a square",
   "icons": [
     {
@@ -21,6 +21,10 @@
         "default": "Insert a square",
         "en": "Insert a square",
         "ja": "正方形を挿入する"
+      },
+      "shortcut": {
+        "mac": "Cmd+alt+0",
+        "win": "Ctrl+alt+0"
       },
       "commandId": "menuCommand"
     }
