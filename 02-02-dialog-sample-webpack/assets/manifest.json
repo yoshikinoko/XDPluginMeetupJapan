@@ -1,18 +1,22 @@
 {
   "id": "dcba3210",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "name": "Red square of arbitrary size",
-  "description": "This plugin creates a red square of arbitrary size. You do not have to click and drag to create squares any more. There are two short cut keys for the 100px and 200px length squares.",
   "icons": [
     {
-      "width": 96,
-      "height": 96,
-      "path": "images/icon.png"
+      "width": 24,
+      "height": 24,
+      "path": "images/icon@1x.png"
+    },
+    {
+      "width": 48,
+      "height": 48,
+      "path": "images/icon@2x.png"
     }
   ],
   "host": {
     "app": "XD",
-    "minVersion": "13.0.0"
+    "minVersion": "21.0"
   },
   "uiEntryPoints": [
     {
@@ -23,8 +27,8 @@
         "ja": "任意のサイズの正方形を挿入する..."
       },
       "shortcut": {
-        "mac": "Cmd+alt+0",
-        "win": "Ctrl+alt+0"
+        "mac": "Cmd+Opt+0",
+        "win": "Ctrl+Alt+0"
       },
       "commandId": "menuCommand"
     },
@@ -35,7 +39,7 @@
         "en": "Insert a red square of fixed size",
         "ja": "規定のサイズの正方形を挿入する"
       },
-      "menuItems":[
+      "menuItems": [
         {
           "type": "menu",
           "label": {
@@ -44,8 +48,8 @@
             "ja": "1辺100pxの正方形を挿入する"
           },
           "shortcut": {
-            "mac": "Cmd+alt+1",
-            "win": "Ctrl+alt+1"
+            "mac": "Cmd+Opt+1",
+            "win": "Ctrl+Alt+1"
           },
           "commandId": "menuCommand100"
         },
@@ -57,8 +61,8 @@
             "ja": "1辺200pxの正方形を挿入する"
           },
           "shortcut": {
-            "mac": "Cmd+alt+2",
-            "win": "Ctrl+alt+2"
+            "mac": "Cmd+Opt+2",
+            "win": "Ctrl+Alt+2"
           },
           "commandId": "menuCommand200"
         }

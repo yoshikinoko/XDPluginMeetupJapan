@@ -1,20 +1,33 @@
 {
-	"extends": [
-		"airbnb"
-	],
-	"plugins": [],
-	"parserOptions": {},
-	"env": {
-		"browser": true
-	},
-	"globals": {
-		"scenegraph": true
-	},
-	"rules": {
-		"indent": ["error", 4],
-		"no-unused-vars": "warn",
-		"no-console": "off",
-		"import/no-unresolved": ["warn", { "ignore": ["uxp", "secenegraph", "commands", "clipboard"] }],
-		"no-param-reassign": ["error", { "props": true, "ignorePropertyModificationsFor": ["selection"] }]
-	}
+  "extends": ["airbnb", "plugin:prettier/recommended"],
+  "plugins": [],
+  "parserOptions": {},
+  "env": {
+    "browser": true
+  },
+  "globals": {},
+  "rules": {
+    "no-unused-vars": "warn",
+    "no-console": "warn",
+    "import/no-unresolved": [
+      "warn",
+      {
+        "ignore": ["application", "clipboard", "commands", "secenegraph", "uxp"]
+      }
+    ],
+    "no-param-reassign": [
+      "error",
+      {
+        "props": true,
+        "ignorePropertyModificationsFor": ["selection"]
+      }
+    ],
+    "prettier/prettier": [
+      "error",
+      {
+        "singleQuote": true,
+        "trailingComma": "es5"
+      }
+    ]
+  }
 }
