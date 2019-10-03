@@ -1,0 +1,28 @@
+{
+  "id": "xdjp0301",
+  "version": "0.0.1",
+  "name": "Copy text to Clipboard",
+  "icons": [
+    {
+      "width": 24,
+      "height": 24,
+      "path": "images/icon-24px.png"
+    },
+    {
+      "width": 48,
+      "height": 48,
+      "path": "images/icon-48px.png"
+    }
+  ],
+  "host": {
+    "app": "XD",
+    "minVersion": "21.0"
+  },
+  "uiEntryPoints": [
+    {
+      "type": "panel",
+      "label": "Copy text to Clipboard",
+      "panelId": "example"
+    }
+  ]
+}
