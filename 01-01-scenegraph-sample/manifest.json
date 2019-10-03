@@ -1,18 +1,22 @@
 {
-  "id": "abcd0123",
-  "version": "1.0.0",
+  "id": "xdjp0101",
   "name": "Red square",
-  "description": "Insert a square",
+  "version": "0.0.1",
   "icons": [
     {
-      "width": 96,
-      "height": 96,
-      "path": "images/icon.png"
+      "width": 24,
+      "height": 24,
+      "path": "images/icon-24px.png"
+    },
+    {
+      "width": 48,
+      "height": 48,
+      "path": "images/icon-48px.png"
     }
   ],
   "host": {
     "app": "XD",
-    "minVersion": "13.0.0"
+    "minVersion": "21.0"
   },
   "uiEntryPoints": [
     {
@@ -21,10 +25,6 @@
         "default": "Insert a square",
         "en": "Insert a square",
         "ja": "正方形を挿入する"
-      },
-      "shortcut": {
-        "mac": "Cmd+alt+0",
-        "win": "Ctrl+alt+0"
       },
       "commandId": "menuCommand"
     }
