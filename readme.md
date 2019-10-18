@@ -14,6 +14,12 @@
 
     `プラグイン` >`開発版` > `開発フォルダーを表示`
 
+    **開発フォルダーが表示されない場合は、下記の場所にフォルダーを作成してください**
+
+    - Mac: `~/Library/Application Support/Adobe/Adobe XD/develop`
+
+    - Win: `%LOCALAPPDATA%\Packages\Adobe.CC.XD_adky2gkssdxte\LocalState\develop`
+
 3. 開発フォルダー（`develop`フォルダー) にフォルダごとコピーしてください。
 
     例えば、「01-01-scenegraph-sample」のフォルダーを **フォルダーごとコピー** してください
@@ -24,9 +30,9 @@
 
     **ショートカットキー**
 
-    Mac: <kbd>Command</kbd>+<kbd>Shift</kbd>+<kbd>R</kbd>
+    - Mac: <kbd>Command</kbd>+<kbd>Shift</kbd>+<kbd>R</kbd>
 
-    Win: <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>R</kbd>
+    - Win: <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>R</kbd>
 
 5. Adobe XD のメニューより、プラグインを起動
 
@@ -62,6 +68,7 @@
 
 ### 日本語
 
+- [Adobe XDプラグインをつくってみよう (SlideShare)](http://bit.ly/xdug_sendai_pluign_dev)
 - [はじめてのAdobe XDプラグイン開発！定番のHello Worldを表示させてみよう \#AdobeXD \#AdobeMAX \- Adobe Blog](https://blogs.adobe.com/japan/web-getting-started-with-xd-plugin-development/)
 - [Adobe XDプラグインのソースコードの解説 \#AdobeIO \#XDPlugin \#AdobeXD \- Adobe Blog](https://blogs.adobe.com/japan/cc-web-adobe-xd-plugin-quickstart-japanese/)
 - [\#Adobe XD のパネルに対応したプラグインの開発 \- Adobe Blog](https://blogs.adobe.com/japan/cc-web-xd-plugin-developent-with-panel-ui/)
@@ -89,5 +96,3 @@ Apache 2.0
 ## DISCLAIMER
 
 You use this utility at your own risk. Under no circumstances shall Adobe be held liable for the use, misuse, or abuse of this utility.
-
-Use of this utility means that you agree to Adobe's [Terms of Use](https://www.adobe.com/legal/terms.html) and the [Adobe Developer Additional Terms](https://wwwimages2.adobe.com/content/dam/acom/en/legal/servicetou/Adobe-Developer-Additional-Terms_en_US_20180605_2200.pdf).
