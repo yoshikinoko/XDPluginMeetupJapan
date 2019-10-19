@@ -17,6 +17,7 @@
   "private": true,
   "dependencies": {},
   "devDependencies": {
+    "@adobe/xdpm": "^3.0.2",
     "@babel/core": "^7.6.0",
     "@babel/plugin-transform-modules-commonjs": "^7.6.0",
     "@babel/plugin-transform-runtime": "^7.6.2",
@@ -33,6 +34,7 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^1.7.0",
     "husky": "^3.0.5",
     "lint-staged": "^9.2.5",
     "nodemon": "^1.19.2",
@@ -43,8 +45,7 @@
     "stylelint-config-standard": "^18.3.0",
     "stylelint-order": "^3.1.0",
     "webpack": "^4.39.3",
-    "webpack-cli": "^3.3.8",
-    "xdpm": "git+https://github.com/yoshikinoko/xdpm#feature"
+    "webpack-cli": "^3.3.8"
   },
   "lint-staged": {
     "src/**/*.{js,jsx}": [
